@@ -446,6 +446,72 @@
 				"inputs": [
 					{
 						"internalType": "string",
+						"name": "caseId",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "getEvidence",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "evidenceId",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "cidEncrypted",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "hash",
+								"type": "string"
+							},
+							{
+								"internalType": "enum ForensicChain.EvidenceType",
+								"name": "evidenceType",
+								"type": "uint8"
+							},
+							{
+								"internalType": "address",
+								"name": "submittedBy",
+								"type": "address"
+							},
+							{
+								"internalType": "bool",
+								"name": "confirmed",
+								"type": "bool"
+							},
+							{
+								"internalType": "uint256",
+								"name": "submittedAt",
+								"type": "uint256"
+							},
+							{
+								"internalType": "address[]",
+								"name": "chainOfCustody",
+								"type": "address[]"
+							}
+						],
+						"internalType": "struct ForensicChain.Evidence",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
 						"name": "firId",
 						"type": "string"
 					}
@@ -741,11 +807,11 @@
 	},
 	"sources": {
 		"Capstone/ForensicChain.sol": {
-			"keccak256": "0x64a29e0fb6fe949718cb0ff9e54af8021edbc07ed702d04a4cec4b45dd6cc5f7",
+			"keccak256": "0x41a83fd9f315dc86235f31177734c5c124395e3976f3d248283c4541c3a4d431",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a02c00f353e7b7421ea896db4d5b5106abfbd5a74e67871e7669cf075d47d973",
-				"dweb:/ipfs/QmTtb9qwG3VtLPzbqnxQJaz9vrcLwENcVtS3kVFA4x38Yk"
+				"bzz-raw://b855e772f754617556d0e984a4ddccd34542418469d98b61ef796542e2d1acdb",
+				"dweb:/ipfs/QmWUgAdeWevKH5H8wGEpff9H5Lo7j91eitPKJdigSfMMCx"
 			]
 		}
 	},

@@ -246,4 +246,7 @@ contract ForensicChain {
         evidenceAccessed[caseId][index][msg.sender] = true;
         caseEvidenceMapping[caseId][index].chainOfCustody.push(msg.sender);
     }
+    function getEvidence(string memory caseId, uint index) public view returns (Evidence memory) {
+    return caseEvidenceMapping[caseId][index];
+}
 }
