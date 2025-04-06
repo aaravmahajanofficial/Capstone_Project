@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Capstone/test.sol": "MyContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Capstone/test.sol": {
+			"keccak256": "0x794eea5228629561c041512dc82a342831dd62c4f54054abf0d88a6b8ed3e8f3",
+			"urls": [
+				"bzz-raw://8a30a3f7f157955b7023ac85de07b03ce1cf6a7179bc2443cdd9f8737fa4e589",
+				"dweb:/ipfs/QmVx2fSmKJwMdi8B3wmRiav5LLUa1nBgxGbEHQ41r6Gjhw"
+			]
+		}
+	},
+	"version": 1
+}
