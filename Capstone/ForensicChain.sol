@@ -20,8 +20,8 @@ contract ForensicChain {
    
     struct FIR {
         string firId;               
-        address filedBy;            
-        string description;        
+        address filedBy;     
+        string description;     
         uint256 timestamp;          
         bool promotedToCase;        
         string associatedCaseId;    
